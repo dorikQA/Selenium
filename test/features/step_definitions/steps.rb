@@ -1,6 +1,7 @@
 $basicurl = "http://www.toysrus.com"
 # $driver.manage.timeouts.implicit_wait = 6
-#ffffff
+#ffffffhhhhhhhhhhhhhhhnn
+#hgmhh,kjkk
 
 Then /^Open category ([^"]*) and click subcategory ([^"]*)$/ do |x, y|
   element = $driver.find_element :xpath => "//a[@class='mainNavLink' and text() = \"#{x}\"]"
