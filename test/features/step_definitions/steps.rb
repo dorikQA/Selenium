@@ -167,7 +167,7 @@ end
 
 Then /^Input password$/ do
   element = $driver.find_element :xpath => "//input[@id = 'passwd']"
-  element.send_keys "Zxc123zxc"
+  element.send_keys "*****"
   sleep 8
 end
 
@@ -494,7 +494,7 @@ end
 # Then Enter Valid information into email field
 # Then Enter valid information into the password field
 # Then Enter valid information into verify password field
-# Then Click the “SignIn” button
+# Then Click the Â“SignInÂ” button
 # Then Verify that user is signed in
 
 
